@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>Кванториум - образовательное пространство будущего</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container site-header__inner">
+			<a class="brand" href="#main">Кванториум</a>
+			<nav class="site-nav" aria-label="Основная навигация">
+				<a href="#about">О пространстве</a>
+				<a href="#programs">Направления</a>
+				<a href="oborudovanie.html">Оборудование</a>
+				<a href="raspisanie.html">Расписание</a>
+				<a href="galereya.html">Проекты</a>
+			</nav>
+		</div>
+	</header>
+
+	<main id="main">
+		<section class="hero" id="about">
+			<div class="container hero__inner">
+				<div class="hero__content">
+					<p class="eyebrow">Учимся через практику</p>
+					<h1>Кванториум - пространство для IT, робототехники и VR/AR</h1>
+					<p class="hero__lead">
+						Здесь дети знакомятся с технологиями в дружелюбной среде, пробуют себя в инженерных проектах,
+						создают цифровые идеи и учатся работать в команде.
+					</p>
+					<div class="hero__actions">
+						<a class="button button--primary" href="#gallery-modal">Посмотреть галерею</a>
+						<a class="button button--secondary" href="#programs">Изучить направления</a>
+					</div>
+				</div>
+
+				<figure class="hero__media">
+					<img src="assets/tuxi.jpg" alt="Современная учебная зона Кванториум" width="800" height="600">
+				</figure>
+			</div>
+		</section>
+
+		<section class="section" id="programs">
+			<div class="container">
+				<div class="section__heading">
+					<h2>Направления обучения</h2>
+					<p>Понятные и интересные форматы занятий помогают детям постепенно раскрывать себя в технологиях.</p>
+				</div>
+
+				<div class="card-grid">
+					<article class="card">
+						<img src="assets/tuxi.jpg" alt="Рабочее место для занятий IT" width="800" height="600">
+						<div class="card__body">
+							<h3>IT и цифровая грамотность</h3>
+							<p>Основы работы с компьютером, логикой, интерфейсами и первыми цифровыми проектами.</p>
+						</div>
+					</article>
+
+					<article class="card">
+						<img src="assets/propaganda.png" alt="Учебный робототехнический проект" width="800" height="600">
+						<div class="card__body">
+							<h3>Робототехника</h3>
+							<p>Сборка, программирование и эксперименты, которые делают инженерные идеи наглядными.</p>
+						</div>
+					</article>
+
+					<article class="card">
+						<img src="assets/tuxi.jpg" alt="Зона для занятий VR и AR" width="800" height="600">
+						<div class="card__body">
+							<h3>VR и AR</h3>
+							<p>Интерактивные сценарии и визуальные инструменты для увлекательного изучения технологий.</p>
+						</div>
+					</article>
+
+					<article class="card">
+						<img src="assets/propaganda.png" alt="Командная работа над проектом" width="800" height="600">
+						<div class="card__body">
+							<h3>Проектная команда</h3>
+							<p>Совместная работа, презентации и развитие навыков общения через реальные задачи.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--soft" id="gallery">
+			<div class="container gallery-intro">
+				<div class="section__heading section__heading--compact">
+					<h2>Атмосфера Кванториум</h2>
+					<p>Открытое, спокойное и современное пространство, где удобно учиться, собирать и исследовать.</p>
+				</div>
+				<a class="button button--primary" href="#gallery-modal">Посмотреть галерею</a>
+			</div>
+		</section>
+	</main>
+
+	<section class="modal" id="gallery-modal" aria-labelledby="gallery-modal-title" aria-describedby="gallery-modal-description">
+		<a class="modal__overlay" href="#gallery" aria-label="Закрыть окно"></a>
+		<div class="modal__dialog" role="dialog" aria-modal="true">
+			<a class="modal__close" href="#gallery" aria-label="Закрыть окно">×</a>
+			<p class="modal__eyebrow">Галерея Кванториум</p>
+			<h2 id="gallery-modal-title">Где идеи превращаются в проекты</h2>
+			<p id="gallery-modal-description">
+				Кванториум объединяет занятия по IT, робототехнике и VR/AR. Ученики знакомятся с современными
+				инструментами, развивают творческое мышление и учатся создавать полезные решения.
+			</p>
+			<ul class="modal__list">
+				<li>Дружелюбная образовательная среда</li>
+				<li>Практика, эксперименты и командные задания</li>
+				<li>Современные технологии в понятной форме</li>
+			</ul>
+			<a class="button button--secondary" href="#contacts">Связаться с нами</a>
+		</div>
+	</section>
+
+	<footer class="site-footer" id="contacts">
+		<div class="container site-footer__inner">
+			<div>
+				<p class="site-footer__title">Кванториум</p>
+				<p class="site-footer__text">Образовательное пространство для детей, увлечённых технологиями.</p>
+			</div>
+			<a class="button button--secondary" href="mailto:hello@quantorium.local">hello@quantorium.local</a>
+		</div>
+	</footer>
+</body>
+</html>
